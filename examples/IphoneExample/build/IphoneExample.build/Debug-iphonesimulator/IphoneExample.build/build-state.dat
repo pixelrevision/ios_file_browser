@@ -1,0 +1,696 @@
+TIphoneExample
+v7
+r0
+t311195077.825917
+cCheck dependencies
+cProcessInfoPlistFile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/Info.plist IphoneExample-Info.plist
+cCompileXIB /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/MainWindow.xib
+cCompileXIB /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExampleViewController.xib
+cCpResource build/Debug-iphonesimulator/IphoneExample.app/add_folder_icon.png ../../source/add_folder_icon.png
+cCpResource build/Debug-iphonesimulator/IphoneExample.app/back.png ../../source/back.png
+cCpResource build/Debug-iphonesimulator/IphoneExample.app/chrome_bar.png ../../source/chrome_bar.png
+cCpResource build/Debug-iphonesimulator/IphoneExample.app/chrome.png ../../source/chrome.png
+cCpResource build/Debug-iphonesimulator/IphoneExample.app/doc_icon.png ../../source/doc_icon.png
+cCpResource build/Debug-iphonesimulator/IphoneExample.app/folder_icon.png ../../source/folder_icon.png
+cCompileXIB /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.xib
+cCompileXIB /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.xib
+cProcessPCH /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch.gch IphoneExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/main.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleAppDelegate.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleViewController.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/NSObject+Additions.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/NSObject+Additions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowser.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserItem.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableCell.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableData.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UISlideButton.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UISlideButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableCellLoader.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableCellLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableDataSourceController.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableDataSourceController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UIView+Additions.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UIView+Additions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample normal i386
+cGenerateDSYMFile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app.dSYM /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample
+cTouch /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app
+
+N/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/NSObject+Additions.m
+c000000004CD897F20000000000000171
+t1289263090
+s369
+i"NSObject+Additions.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.h
+c000000004CDC33610000000000000B13
+t1289499489
+s2835
+i<UIKit/UIKit.h>
+i"PXRFileBrowserTableData.h"
+i"UIView+Additions.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.m
+c000000004CDC3E380000000000003815
+t1289502264
+s14357
+i"PXRFileBrowser.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.xib
+c000000004CDC35BD000000000000D442
+t1289500093
+s54338
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserItem.m
+c000000004CDAF16200000000000001FE
+t1289417058
+s510
+i"PXRFileBrowserItem.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.m
+c000000004CDAF13B000000000000031B
+t1289417019
+s795
+i"PXRFileBrowserTableCell.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.xib
+c000000004CD9BB3B00000000000057A9
+t1289337659
+s22441
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableData.m
+c000000004CD9D23100000000000004D2
+t1289343537
+s1234
+i"PXRFileBrowserTableData.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UISlideButton.m
+c000000004CD9B6860000000000000357
+t1289336454
+s855
+i"UISlideButton.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableCellLoader.m
+c000000004CD89C0E0000000000000230
+t1289264142
+s560
+i"UITableCellLoader.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableDataSourceController.m
+c000000004CD89C1800000000000008CC
+t1289264152
+s2252
+i"UITableDataSourceController.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UIView+Additions.m
+c000000004BFD561B0000000000000208
+t1274893851
+s520
+i"UIView+Additions.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/add_folder_icon.png
+c000000004CD8987F0000000000000E81
+t1289263231
+s3713
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/back.png
+c000000004CD88D810000000000001085
+t1289260417
+s4229
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/chrome.png
+c000000004CD9E1370000000000000B74
+t1289347383
+s2932
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/chrome_bar.png
+c000000004CD88C4C0000000000000B89
+t1289260108
+s2953
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/doc_icon.png
+c000000004CD869DD0000000000000BF1
+t1289251293
+s3057
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/folder_icon.png
+c000000004CD8694D0000000000000C8D
+t1289251149
+s3213
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleAppDelegate.h
+c000000004CDAF9560000000000000206
+t1289419094
+s518
+i<UIKit/UIKit.h>
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleAppDelegate.m
+c000000004CDAF9560000000000000AAC
+t1289419094
+s2732
+i"IphoneExampleAppDelegate.h"
+i"IphoneExampleViewController.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleViewController.h
+c000000004CDB01F7000000000000012D
+t1289421303
+s301
+i<UIKit/UIKit.h>
+i"PXRFileBrowser.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleViewController.m
+c000000004CDB05C60000000000000703
+t1289422278
+s1795
+i"IphoneExampleViewController.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExampleViewController.xib
+c000000004CDB0EB300000000000074C8
+t1289424563
+s29896
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExample_Prefix.pch
+c000000004CDAF95600000000000000C3
+t1289419094
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/MainWindow.xib
+c000000004CDAF9560000000000004E71
+t1289419094
+s20081
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app
+t1289502277
+s510
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app.dSYM
+t1289502277
+s102
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/Info.plist
+t1289500912
+s642
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample
+t1289502277
+s91132
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExampleViewController.nib
+t1289425516
+s4599
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/MainWindow.nib
+t1289420321
+s1693
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/PXRFileBrowser.nib
+t1289500098
+s7890
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/PXRFileBrowserTableCell.nib
+t1289420321
+s3146
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/PkgInfo
+t1289500912
+s8
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/add_folder_icon.png
+t1289420321
+s3713
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/back.png
+t1289420321
+s4229
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/chrome.png
+t1289420321
+s2932
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/chrome_bar.png
+t1289420321
+s2953
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/doc_icon.png
+t1289420321
+s3057
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/folder_icon.png
+t1289420321
+s3213
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExample.LinkFileList
+c000000004CDAFE2100000000000008A8
+t1289420321
+s2216
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleAppDelegate.o
+t1289499531
+s49176
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleViewController.o
+t1289499531
+s49760
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/NSObject+Additions.o
+t1289420322
+s7260
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowser.o
+t1289502277
+s111056
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserItem.o
+t1289420322
+s12816
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableCell.o
+t1289420322
+s41488
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableData.o
+t1289420322
+s40164
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UISlideButton.o
+t1289420323
+s41716
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableCellLoader.o
+t1289420323
+s39492
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableDataSourceController.o
+t1289420323
+s48248
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UIView+Additions.o
+t1289420323
+s34964
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/main.o
+t1289420322
+s6416
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/main.m
+c000000004CDAF9560000000000000172
+t1289419094
+s370
+i<UIKit/UIKit.h>
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/NSObject+Additions.h
+c000000004CD8616B00000000000000C6
+t1289249131
+s198
+i<Foundation/Foundation.h>
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/PXRFileBrowser.h
+c000000004CDC33610000000000000B13
+t1289499489
+s2835
+i<UIKit/UIKit.h>
+i"PXRFileBrowserTableData.h"
+i"UIView+Additions.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/PXRFileBrowserItem.h
+c000000004CDAF0360000000000000204
+t1289416758
+s516
+i<Foundation/Foundation.h>
+i"UITableDataSourceController.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/PXRFileBrowserTableCell.h
+c000000004CD9C63800000000000001BB
+t1289340472
+s443
+i<UIKit/UIKit.h>
+i"PXRFileBrowserItem.h"
+i"UISlideButton.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/PXRFileBrowserTableData.h
+c000000004CD9C50500000000000001FC
+t1289340165
+s508
+i<Foundation/Foundation.h>
+i"UITableDataSourceController.h"
+i"PXRFileBrowserItem.h"
+i"PXRFileBrowserTableCell.h"
+i"UITableCellLoader.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/UISlideButton.h
+c000000004CD9B68B0000000000000170
+t1289336459
+s368
+i<UIKit/UIKit.h>
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/UITableCellLoader.h
+c000000004C913FA000000000000001A0
+t1284587424
+s416
+i<Foundation/Foundation.h>
+i"NSObject+Additions.h"
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/UITableDataSourceController.h
+c000000004C913FA00000000000000283
+t1284587424
+s643
+i<Foundation/Foundation.h>
+
+N/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/source/UIView+Additions.h
+c000000004BFD561B00000000000000A2
+t1274893851
+s162
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch.gch
+t1289420322
+s15215632
+
+NIphoneExample-Info.plist
+c000000004CDC38EE00000000000003B5
+t1289500910
+s949
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311195077#311195077#0(0"0(0#1#0"8618905824#0"0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleAppDelegate.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311192331.442614
+e311192331.537789
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleAppDelegate.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleAppDelegate.m311192331#311192331#0(0"0(0#0#109"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleAppDelegate.m8615172032#2518"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleAppDelegate.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleAppDelegate.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleViewController.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311192331.443418
+e311192331.537484
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleViewController.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleViewController.m311192331#311192331#0(0"0(0#0#112"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleViewController.m8614947616#2524"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/Classes/IphoneExampleViewController.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExampleViewController.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/NSObject+Additions.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/NSObject+Additions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113122.659729
+e311113122.825948
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/NSObject+Additions.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/NSObject+Additions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/NSObject+Additions.m311113122#311113122#0(0"0(0#0#108"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/NSObject+Additions.m8612981888#2511"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/NSObject+Additions.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/NSObject+Additions.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowser.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311195077.564478
+e311195077.768220
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowser.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.m311195077#311195077#0(0"0(0#0#104"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.m8615974976#2503"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowser.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserItem.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113122.806464
+e311113122.947243
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserItem.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserItem.m311113122#311113122#0(0"0(0#0#108"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserItem.m8615408640#2511"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserItem.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserItem.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableCell.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113122.826090
+e311113122.954737
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableCell.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.m311113122#311113122#0(0"0(0#0#113"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.m8614781888#2521"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableCell.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableData.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113122.827564
+e311113122.954507
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableData.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableData.m311113122#311113122#0(0"0(0#0#113"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableData.m8614473472#2521"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableData.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/PXRFileBrowserTableData.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UISlideButton.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UISlideButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113122.947374
+e311113123.084259
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UISlideButton.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UISlideButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UISlideButton.m311113122#311113123#0(0"0(0#0#103"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UISlideButton.m8614945824#2501"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UISlideButton.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UISlideButton.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableCellLoader.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableCellLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113122.954855
+e311113123.076246
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableCellLoader.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableCellLoader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableCellLoader.m311113122#311113123#0(0"0(0#0#107"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableCellLoader.m8616550048#2509"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableCellLoader.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableCellLoader.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableDataSourceController.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableDataSourceController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113122.958938
+e311113123.083951
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableDataSourceController.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableDataSourceController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableDataSourceController.m311113122#311113123#0(0"0(0#0#117"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableDataSourceController.m8615816544#2529"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UITableDataSourceController.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UITableDataSourceController.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UIView+Additions.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UIView+Additions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113123.076391
+e311113123.140515
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UIView+Additions.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UIView+Additions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UIView+Additions.m311113123#311113123#0(0"0(0#0#106"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UIView+Additions.m8615891424#2507"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/UIView+Additions.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/UIView+Additions.o0#
+
+CCompileC build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/main.o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113122.656345
+e311113122.804069
+r1
+xCompileC
+xbuild/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/main.o
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/main.m311113122#311113122#0(0"0(0#0#81"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/main.m8611497536#2470"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -include /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/main.m -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.xib
+s311192897.948473
+e311192898.510042
+r1
+xCompileXIB
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.xib
+lSLF07#2@42"CompileXIB ../../source/PXRFileBrowser.xib311192897#311192898#0(0"0(0#0#106"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.xib8612876320#745"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/PXRFileBrowser.nib /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowser.xib --sdk /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.xib
+s311113121.089326
+e311113121.654694
+r1
+xCompileXIB
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.xib
+lSLF07#2@51"CompileXIB ../../source/PXRFileBrowserTableCell.xib311113121#311113121#0(0"0(0#0#115"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.xib8615234496#763"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/PXRFileBrowserTableCell.nib /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/PXRFileBrowserTableCell.xib --sdk /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExampleViewController.xib
+s311118316.159424
+e311118316.614589
+r1
+xCompileXIB
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExampleViewController.xib
+lSLF07#2@42"CompileXIB IphoneExampleViewController.xib311118316#311118316#0(0"0(0#0#106"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExampleViewController.xib8620062752#758"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExampleViewController.nib /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExampleViewController.xib --sdk /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/MainWindow.xib
+s311113121.056092
+e311113121.556705
+r1
+xCompileXIB
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib311113121#311113121#0(0"0(0#0#89"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/MainWindow.xib8614749792#724"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/MainWindow.nib /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/MainWindow.xib --sdk /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/IphoneExample.app/add_folder_icon.png ../../source/add_folder_icon.png
+s311113121.057348
+e311113121.086388
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IphoneExample.app/add_folder_icon.png
+x../../source/add_folder_icon.png
+lSLF07#2@37"Copy ../../source/add_folder_icon.png311113121#311113121#0(0"0(0#0#107"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/add_folder_icon.png8614389728#620"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/add_folder_icon.png /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app0#
+
+CCpResource build/Debug-iphonesimulator/IphoneExample.app/back.png ../../source/back.png
+s311113121.058077
+e311113121.087124
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IphoneExample.app/back.png
+x../../source/back.png
+lSLF07#2@26"Copy ../../source/back.png311113121#311113121#0(0"0(0#0#96"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/back.png8614210336#609"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/back.png /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app0#
+
+CCpResource build/Debug-iphonesimulator/IphoneExample.app/chrome.png ../../source/chrome.png
+s311113121.059549
+e311113121.085207
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IphoneExample.app/chrome.png
+x../../source/chrome.png
+lSLF07#2@28"Copy ../../source/chrome.png311113121#311113121#0(0"0(0#0#98"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/chrome.png8610890720#611"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/chrome.png /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app0#
+
+CCpResource build/Debug-iphonesimulator/IphoneExample.app/chrome_bar.png ../../source/chrome_bar.png
+s311113121.058798
+e311113121.089197
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IphoneExample.app/chrome_bar.png
+x../../source/chrome_bar.png
+lSLF07#2@32"Copy ../../source/chrome_bar.png311113121#311113121#0(0"0(0#0#102"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/chrome_bar.png8611577120#615"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/chrome_bar.png /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app0#
+
+CCpResource build/Debug-iphonesimulator/IphoneExample.app/doc_icon.png ../../source/doc_icon.png
+s311113121.061458
+e311113121.085451
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IphoneExample.app/doc_icon.png
+x../../source/doc_icon.png
+lSLF07#2@30"Copy ../../source/doc_icon.png311113121#311113121#0(0"0(0#0#100"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/doc_icon.png8601057696#613"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/doc_icon.png /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app0#
+
+CCpResource build/Debug-iphonesimulator/IphoneExample.app/folder_icon.png ../../source/folder_icon.png
+s311113121.063477
+e311113121.085590
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IphoneExample.app/folder_icon.png
+x../../source/folder_icon.png
+lSLF07#2@33"Copy ../../source/folder_icon.png311113121#311113121#0(0"0(0#0#103"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/folder_icon.png8614107904#616"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/../../source/folder_icon.png /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app0#
+
+CGenerateDSYMFile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app.dSYM /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample
+s311195077.795227
+e311195077.823469
+r1
+xGenerateDSYMFile
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app.dSYM
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/IphoneExample.app.dSYM build/Debug-iphonesimulator/IphoneExample.app/IphoneExample311195077#311195077#0(0"0(0#0#134"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample8615972992#539"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/usr/bin/dsymutil /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app.dSYM0#
+
+CLd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample normal i386
+s311195077.768309
+e311195077.795125
+r1
+xLd
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample
+xnormal
+xi386
+lSLF07#2@139"Link /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample311195077#311195077#0(0"0(0#0#0"8616129472#1150"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -filelist /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/Objects-normal/i386/IphoneExample.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/IphoneExample0#
+
+CProcessInfoPlistFile /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/Info.plist IphoneExample-Info.plist
+s311193712.135931
+e311193712.173956
+r1
+xProcessInfoPlistFile
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/Info.plist
+xIphoneExample-Info.plist
+lSLF07#2@32"Process IphoneExample-Info.plist311193712#311193712#0(0"0(0#0#99"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExample-Info.plist8618521056#625"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IphoneExample-Info.plist -genpkginfo /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app/Info.plist0#
+
+CProcessPCH /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch.gch IphoneExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s311113121.748094
+e311113122.656134
+r1
+xProcessPCH
+x/var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch.gch
+xIphoneExample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile IphoneExample_Prefix.pch311113121#311113122#0(0"0(0#0#99"/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExample_Prefix.pch8611836704#2320"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-generated-files.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-own-target-headers.hmap -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-all-target-headers.hmap -iquote /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/IphoneExample-project-headers.hmap -F/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/include -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources/i386 -I/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/IphoneExample.build/Debug-iphonesimulator/IphoneExample.build/DerivedSources -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/IphoneExample_Prefix.pch -o /var/folders/Kn/KnUfwcjrHTiMthv9VIFa7++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/IphoneExample_Prefix-blmdormhyfuuuwgyrcfvouyysyca/IphoneExample_Prefix.pch.gch0#
+
+CTouch /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app
+s311195077.823548
+e311195077.825858
+r1
+xTouch
+x/Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app
+lSLF07#2@126"Touch /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app311195077#311195077#0(0"0(0#0#0"8615236064#376"    cd /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample    setenv PATH "/Developer/XCode_4_1/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode_4_1/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Malcolm.Wilson/Projects/Sandbox/file_browser/examples/IphoneExample/build/Debug-iphonesimulator/IphoneExample.app0#
+
