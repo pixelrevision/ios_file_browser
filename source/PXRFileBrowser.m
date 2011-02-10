@@ -90,16 +90,15 @@
 	NSArray *files = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:currentPath error:NULL];
 	NSString *currFile;
 	BOOL isDir;
-	NSRange range = NSMakeRange(0, 1);
 	for(NSString *file in files){
 		currFile = [currentPath stringByAppendingString:file];
 		// send to the table view
 		[[NSFileManager defaultManager] fileExistsAtPath:currFile isDirectory:&isDir];
-		if(![[file substringWithRange:range] isEqualToString:@"."] && browserMode == kPXRFileBrowserModeSave){
+		if(![self fileShouldBeHidden:file] && browserMode == kPXRFileBrowserModeSave){
 			// it's not a hidden file so show it
 			[tableData addItem:[PXRFileBrowserItem itemWithTitle:file andPath:currFile isDirectory:isDir] toSection:0];
 			fileCount ++;
-		}else if(![[file substringWithRange:range] isEqualToString:@"."] && browserMode == kPXRFileBrowserModeLoad){
+		}else if(![self fileShouldBeHidden:file] && browserMode == kPXRFileBrowserModeLoad){
 			NSString *ext = [currFile pathExtension];
 			BOOL isFileType = false;
 			for(NSString *ft in fileTypes){
@@ -138,6 +137,18 @@
 	}
 	
 	[fileTableView reloadData];
+}
+
+- (BOOL)fileShouldBeHidden:(NSString*)fileName{
+	NSRange range = NSMakeRange(0, 1);
+	if([[fileName substringWithRange:range] isEqualToString:@"."]){
+		return YES;
+	}
+	range = NSMakeRange(0, 2);
+	if([[fileName substringWithRange:range] isEqualToString:@"__"]){
+		return YES;
+	}
+	return NO;
 }
 
 - (void)tableView:(UITableView *) aTableView didSelectRowAtIndexPath:(NSIndexPath *) indexPath {

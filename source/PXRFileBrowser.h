@@ -91,6 +91,8 @@ typedef enum {
 - (IBAction)folderNameBeganEditing;
 - (IBAction)folderNameEndedEditing;
 
+- (BOOL)fileShouldBeHidden:(NSString*)fileName;
+
 - (void)initSizings;
 - (void)updateSizeForCurrentOrientation;
 - (void)delayedResize:(NSTimer*)timer;
