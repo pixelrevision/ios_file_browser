@@ -1,9 +1,8 @@
 
 #import <UIKit/UIKit.h>
-#import "PXRFileBrowserTableData.h"
 #import "UIView+Additions.h"
 
-
+@class PXRFileBrowserTableData;
 @class PXRFileBrowser;
 
 typedef enum {
