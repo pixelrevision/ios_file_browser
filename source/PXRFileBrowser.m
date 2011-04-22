@@ -1,5 +1,6 @@
 #import "PXRFileBrowser.h"
 #import "PXRFileBrowserTableData.h"
+#import "UIView+Additions.h"
 
 @implementation PXRFileBrowser
 @synthesize delegate;

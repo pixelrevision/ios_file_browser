@@ -1,6 +1,5 @@
 
 #import <UIKit/UIKit.h>
-#import "UIView+Additions.h"
 
 @class PXRFileBrowserTableData;
 @class PXRFileBrowser;
