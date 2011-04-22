@@ -1,5 +1,6 @@
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface UITableDataSourceController : NSObject <UITableViewDataSource> {
 	NSMutableArray * data;

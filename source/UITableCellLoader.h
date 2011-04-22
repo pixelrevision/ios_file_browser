@@ -1,5 +1,6 @@
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "NSObject+Additions.h"
 
 @interface UITableCellLoader : NSObject {
