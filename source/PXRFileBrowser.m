@@ -71,6 +71,8 @@
 	folderNameField.delegate = self;
 	fileNameField.delegate = self;
 	
+	saveOptions.hidden = (browserMode == kPXRFileBrowserModeLoad);
+	
  	[super viewDidLoad];
 }
 

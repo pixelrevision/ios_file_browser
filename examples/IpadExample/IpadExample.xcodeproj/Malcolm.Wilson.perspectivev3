@@ -250,6 +250,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -294,6 +296,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>11</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -343,16 +348,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E46DB8B613622C6400589746</string>
+										<string>E46DB8C91362332100589746</string>
 										<key>history</key>
 										<array>
 											<string>E40F50C9128B3D4C000D3239</string>
 											<string>E40F50CA128B3D4C000D3239</string>
 											<string>E40F50CB128B3D4C000D3239</string>
 											<string>E40F51F7128B7237000D3239</string>
-											<string>E40F536C128B8B0B000D3239</string>
-											<string>E485B6ED128C78C100139EBF</string>
-											<string>E46DB8B513622C6200589746</string>
+											<string>E46DB8C81362332100589746</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -652,7 +655,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>325200996.28627402</real>
+	<real>325202721.87842298</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -670,7 +673,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>E46DB8B713622C6400589746</string>
-		<string>E46DB8B1136229BD00589746</string>
 		<string>E46DB8B2136229BD00589746</string>
 		<string>/Users/Malcolm.Wilson/Codebase/pixelrevision/ios_file_browser/examples/IpadExample/IpadExample.xcodeproj</string>
 	</array>
