@@ -250,8 +250,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -348,14 +346,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E46DB8C91362332100589746</string>
+										<string>E46DB8F7136239BF00589746</string>
 										<key>history</key>
 										<array>
 											<string>E40F50C9128B3D4C000D3239</string>
 											<string>E40F50CA128B3D4C000D3239</string>
 											<string>E40F50CB128B3D4C000D3239</string>
 											<string>E40F51F7128B7237000D3239</string>
-											<string>E46DB8C81362332100589746</string>
+											<string>E46DB8F6136239B900589746</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -369,18 +367,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1302, 840}}</string>
+								<string>{{0, 0}, {1302, 718}}</string>
 								<key>RubberWindowFrame</key>
 								<string>391 221 1713 1041 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>840pt</string>
+							<string>718pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>155pt</string>
+							<string>277pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -394,7 +392,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1302, 128}}</string>
+										<string>{{10, 27}, {1302, 131}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -448,7 +446,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1302, 128}}</string>
+										<string>{{10, 27}, {1302, 250}}</string>
 										<key>RubberWindowFrame</key>
 										<string>391 221 1713 1041 0 0 2560 1418 </string>
 									</dict>
@@ -478,11 +476,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E46DB8A9136229BD00589746</string>
+				<string>E46DB8F8136239BF00589746</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>E46DB8AA136229BD00589746</string>
+				<string>E46DB8F9136239BF00589746</string>
 				<string>E4DD475D128B30F600235C35</string>
-				<string>E46DB8AB136229BD00589746</string>
+				<string>E46DB8FA136239BF00589746</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -655,7 +653,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>325202721.87842298</real>
+	<real>325204415.61059499</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -672,8 +670,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E46DB8B713622C6400589746</string>
-		<string>E46DB8B2136229BD00589746</string>
 		<string>/Users/Malcolm.Wilson/Codebase/pixelrevision/ios_file_browser/examples/IpadExample/IpadExample.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

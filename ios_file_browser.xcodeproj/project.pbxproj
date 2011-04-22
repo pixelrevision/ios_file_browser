@@ -220,7 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ! $CONFIGURATION = \"Universal\" ]; then\n\trm release/libios_file_browser.a\n\texit\nfi\ncp build/Universal-universal/libios_file_browser.a release/\ncp source/*.png release/\ncp source/*.xib release/\ncp source/PXRFileBrowser.h release/";
+			shellScript = "if [ ! $CONFIGURATION = \"Universal\" ]; then\n\t\n\texit\nfi\ncp build/Universal-universal/libios_file_browser.a release/\ncp source/*.png release/\ncp source/*.xib release/\ncp source/PXRFileBrowser.h release/";
 		};
 		493B352213622B03004D852F /* Update Examples */ = {
 			isa = PBXShellScriptBuildPhase;
