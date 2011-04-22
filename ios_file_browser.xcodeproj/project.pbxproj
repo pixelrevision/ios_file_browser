@@ -157,6 +157,7 @@
 				D2AAC07C0554694100DB518D /* Frameworks */,
 				493B330E136219D0004D852F /* Build Universal */,
 				493B334013621B01004D852F /* Copy to Release */,
+				493B352213622B03004D852F /* Update Examples */,
 			);
 			buildRules = (
 			);
@@ -220,6 +221,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [ ! $CONFIGURATION = \"Universal\" ]; then\n\trm release/libios_file_browser.a\n\texit\nfi\ncp build/Universal-universal/libios_file_browser.a release/\ncp source/*.png release/\ncp source/*.xib release/\ncp source/PXRFileBrowser.h release/";
+		};
+		493B352213622B03004D852F /* Update Examples */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Examples";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -f release/* examples/Example2/libs/ios_file_browser/";
 		};
 /* End PBXShellScriptBuildPhase section */
 
