@@ -15,6 +15,6 @@
 	UITableCellLoader * loader;
 	NSObject <PXRFileBrowserTableDataDelegate> *delegate;
 }
-@property (nonatomic, retain) id delegate;
+@property (nonatomic, assign) id delegate;
 
 @end

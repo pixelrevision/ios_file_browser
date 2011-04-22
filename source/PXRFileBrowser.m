@@ -140,13 +140,26 @@
 }
 
 - (BOOL)fileShouldBeHidden:(NSString*)fileName{
-	NSRange range = NSMakeRange(0, 1);
-	if([[fileName substringWithRange:range] isEqualToString:@"."]){
-		return YES;
+	int max = 1;
+	NSRange range = NSMakeRange(0, max);
+	if(max <= [fileName length]){
+		if([[fileName substringWithRange:range] isEqualToString:@"."]){
+			return YES;
+		}
 	}
-	range = NSMakeRange(0, 2);
-	if([[fileName substringWithRange:range] isEqualToString:@"__"]){
-		return YES;
+	max = 2;
+	if(max <= [fileName length]){
+		range = NSMakeRange(0, max);
+		if([[fileName substringWithRange:range] isEqualToString:@"__"]){
+			return YES;
+		}
+	}
+	max = 3;
+	if(max <= [fileName length]){
+		range = NSMakeRange(0, max);
+		if([[fileName substringWithRange:range] isEqualToString:@"tmp"]){
+			return YES;
+		}
 	}
 	return NO;
 }
@@ -435,15 +448,15 @@
 	fileTableView.delegate = nil;
 	[paths removeAllObjects];
 	[paths release];
-	fileTableView = nil;
-	fileNameField = nil;
-	currentPath = nil;
-	backButton = nil;
-	folderContents = nil;
-	folderTitle = nil;
-	folderNameField = nil;
-	folderDialog = nil;
-	delegate = nil;
+	self.fileTableView = nil;
+	self.fileNameField = nil;
+	self.currentPath = nil;
+	self.backButton = nil;
+	self.folderContents = nil;
+	self.folderTitle = nil;
+	self.folderNameField = nil;
+	self.folderDialog = nil;
+	self.delegate = nil;
     [super dealloc];
 }
 

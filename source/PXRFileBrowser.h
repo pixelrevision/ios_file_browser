@@ -54,7 +54,7 @@ typedef enum {
 	PXRFileBrowserTableData *tableData;
 }
 
-@property (nonatomic, retain) id delegate;
+@property (nonatomic, assign) id delegate;
 @property (nonatomic, retain) IBOutlet UITextField *fileNameField;
 @property (nonatomic, retain) NSString *currentPath;
 @property (nonatomic, retain) IBOutlet UITableView *fileTableView;
