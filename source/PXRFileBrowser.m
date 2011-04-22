@@ -104,7 +104,7 @@
 			NSString *ext = [currFile pathExtension];
 			BOOL isFileType = false;
 			for(NSString *ft in fileTypes){
-				if([ft isEqualToString:ext]){
+				if([ft isEqualToString:ext] || [ft isEqualToString:@"*"]){
 					isFileType = true;
 				}
 			}
