@@ -37,3 +37,8 @@ Present the file browser as a modal view controller.
 Release the file browser.
 
 There are examples for iphone and ipad in the "examples" folder.
+
+Static Library Note:
+If you're using the static library libios_file_browser.a in your project, you'll
+need to add the linker flag "-all_load" to the "other linker flags" option in
+your application's build settings.
