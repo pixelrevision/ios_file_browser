@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493B32E513621985004D852F /* NSObject+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32D313621985004D852F /* NSObject+Additions.h */; };
+		493B32E613621985004D852F /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32D413621985004D852F /* NSObject+Additions.m */; };
+		493B32E713621985004D852F /* PXRFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32D513621985004D852F /* PXRFileBrowser.h */; };
+		493B32E813621985004D852F /* PXRFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32D613621985004D852F /* PXRFileBrowser.m */; };
+		493B32E913621985004D852F /* PXRFileBrowserItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32D713621985004D852F /* PXRFileBrowserItem.h */; };
+		493B32EA13621985004D852F /* PXRFileBrowserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32D813621985004D852F /* PXRFileBrowserItem.m */; };
+		493B32EB13621985004D852F /* PXRFileBrowserTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32D913621985004D852F /* PXRFileBrowserTableCell.h */; };
+		493B32EC13621985004D852F /* PXRFileBrowserTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32DA13621985004D852F /* PXRFileBrowserTableCell.m */; };
+		493B32ED13621985004D852F /* PXRFileBrowserTableData.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32DB13621985004D852F /* PXRFileBrowserTableData.h */; };
+		493B32EE13621985004D852F /* PXRFileBrowserTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32DC13621985004D852F /* PXRFileBrowserTableData.m */; };
+		493B32EF13621985004D852F /* UISlideButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32DD13621985004D852F /* UISlideButton.h */; };
+		493B32F013621985004D852F /* UISlideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32DE13621985004D852F /* UISlideButton.m */; };
+		493B32F113621985004D852F /* UITableCellLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32DF13621985004D852F /* UITableCellLoader.h */; };
+		493B32F213621985004D852F /* UITableCellLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32E013621985004D852F /* UITableCellLoader.m */; };
+		493B32F313621985004D852F /* UITableDataSourceController.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32E113621985004D852F /* UITableDataSourceController.h */; };
+		493B32F413621985004D852F /* UITableDataSourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32E213621985004D852F /* UITableDataSourceController.m */; };
+		493B32F513621985004D852F /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B32E313621985004D852F /* UIView+Additions.h */; };
+		493B32F613621985004D852F /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B32E413621985004D852F /* UIView+Additions.m */; };
+		493B335213621BFE004D852F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493B335113621BFE004D852F /* UIKit.framework */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		493B32D313621985004D852F /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Additions.h"; path = "source/NSObject+Additions.h"; sourceTree = "<group>"; };
+		493B32D413621985004D852F /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Additions.m"; path = "source/NSObject+Additions.m"; sourceTree = "<group>"; };
+		493B32D513621985004D852F /* PXRFileBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXRFileBrowser.h; path = source/PXRFileBrowser.h; sourceTree = "<group>"; };
+		493B32D613621985004D852F /* PXRFileBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXRFileBrowser.m; path = source/PXRFileBrowser.m; sourceTree = "<group>"; };
+		493B32D713621985004D852F /* PXRFileBrowserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXRFileBrowserItem.h; path = source/PXRFileBrowserItem.h; sourceTree = "<group>"; };
+		493B32D813621985004D852F /* PXRFileBrowserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXRFileBrowserItem.m; path = source/PXRFileBrowserItem.m; sourceTree = "<group>"; };
+		493B32D913621985004D852F /* PXRFileBrowserTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXRFileBrowserTableCell.h; path = source/PXRFileBrowserTableCell.h; sourceTree = "<group>"; };
+		493B32DA13621985004D852F /* PXRFileBrowserTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXRFileBrowserTableCell.m; path = source/PXRFileBrowserTableCell.m; sourceTree = "<group>"; };
+		493B32DB13621985004D852F /* PXRFileBrowserTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXRFileBrowserTableData.h; path = source/PXRFileBrowserTableData.h; sourceTree = "<group>"; };
+		493B32DC13621985004D852F /* PXRFileBrowserTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXRFileBrowserTableData.m; path = source/PXRFileBrowserTableData.m; sourceTree = "<group>"; };
+		493B32DD13621985004D852F /* UISlideButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UISlideButton.h; path = source/UISlideButton.h; sourceTree = "<group>"; };
+		493B32DE13621985004D852F /* UISlideButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UISlideButton.m; path = source/UISlideButton.m; sourceTree = "<group>"; };
+		493B32DF13621985004D852F /* UITableCellLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITableCellLoader.h; path = source/UITableCellLoader.h; sourceTree = "<group>"; };
+		493B32E013621985004D852F /* UITableCellLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITableCellLoader.m; path = source/UITableCellLoader.m; sourceTree = "<group>"; };
+		493B32E113621985004D852F /* UITableDataSourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITableDataSourceController.h; path = source/UITableDataSourceController.h; sourceTree = "<group>"; };
+		493B32E213621985004D852F /* UITableDataSourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITableDataSourceController.m; path = source/UITableDataSourceController.m; sourceTree = "<group>"; };
+		493B32E313621985004D852F /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "source/UIView+Additions.h"; sourceTree = "<group>"; };
+		493B32E413621985004D852F /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "source/UIView+Additions.m"; sourceTree = "<group>"; };
+		493B335113621BFE004D852F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libios_file_browser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_file_browser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				493B335213621BFE004D852F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libios_file_browser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ios_file_browser */ = {
+			isa = PBXGroup;
+			children = (
+				493B32F713621989004D852F /* Headers */,
+				493B32D113621974004D852F /* Source */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = ios_file_browser;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				493B335113621BFE004D852F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		493B32D113621974004D852F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				493B32D413621985004D852F /* NSObject+Additions.m */,
+				493B32D613621985004D852F /* PXRFileBrowser.m */,
+				493B32D813621985004D852F /* PXRFileBrowserItem.m */,
+				493B32DA13621985004D852F /* PXRFileBrowserTableCell.m */,
+				493B32DC13621985004D852F /* PXRFileBrowserTableData.m */,
+				493B32DE13621985004D852F /* UISlideButton.m */,
+				493B32E013621985004D852F /* UITableCellLoader.m */,
+				493B32E213621985004D852F /* UITableDataSourceController.m */,
+				493B32E413621985004D852F /* UIView+Additions.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		493B32F713621989004D852F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				493B32D313621985004D852F /* NSObject+Additions.h */,
+				493B32D513621985004D852F /* PXRFileBrowser.h */,
+				493B32D713621985004D852F /* PXRFileBrowserItem.h */,
+				493B32D913621985004D852F /* PXRFileBrowserTableCell.h */,
+				493B32DB13621985004D852F /* PXRFileBrowserTableData.h */,
+				493B32DD13621985004D852F /* UISlideButton.h */,
+				493B32DF13621985004D852F /* UITableCellLoader.h */,
+				493B32E113621985004D852F /* UITableDataSourceController.h */,
+				493B32E313621985004D852F /* UIView+Additions.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493B32E513621985004D852F /* NSObject+Additions.h in Headers */,
+				493B32E713621985004D852F /* PXRFileBrowser.h in Headers */,
+				493B32E913621985004D852F /* PXRFileBrowserItem.h in Headers */,
+				493B32EB13621985004D852F /* PXRFileBrowserTableCell.h in Headers */,
+				493B32ED13621985004D852F /* PXRFileBrowserTableData.h in Headers */,
+				493B32EF13621985004D852F /* UISlideButton.h in Headers */,
+				493B32F113621985004D852F /* UITableCellLoader.h in Headers */,
+				493B32F313621985004D852F /* UITableDataSourceController.h in Headers */,
+				493B32F513621985004D852F /* UIView+Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* ios_file_browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ios_file_browser" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+				493B330E136219D0004D852F /* Build Universal */,
+				493B334013621B01004D852F /* Copy to Release */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios_file_browser;
+			productName = ios_file_browser;
+			productReference = D2AAC07E0554694100DB518D /* libios_file_browser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ios_file_browser" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* ios_file_browser */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* ios_file_browser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		493B330E136219D0004D852F /* Build Universal */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Universal";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Purpose:\n#   Create a static library for iPhone from within XCode\n#   Because Apple staff DELIBERATELY broke Xcode to make this impossible from the GUI (Xcode 3.2.3 specifically states this in the Release notes!)\n#   ...no, I don't understand why they did such a stupid thing either!\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n# More info: see this Stack Overflow question: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n\nif [ ! $CONFIGURATION = \"Universal\" ]; then\n\texit\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" = ${ALREADYINVOKED} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUULD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\"\nxcodebuild -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\nfi\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\nCURRENTCONFIG_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\nmkdir \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nlipo -create -output \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}/usr/local/include\" ]\nthen\n  mkdir -p \"${CURRENTCONFIG_UNIVERSAL_DIR}/usr/local/include\"\n  cp \"${CURRENTCONFIG_DEVICE_DIR}\"/usr/local/include/* \"${CURRENTCONFIG_UNIVERSAL_DIR}/usr/local/include\"\nfi";
+		};
+		493B334013621B01004D852F /* Copy to Release */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy to Release";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! $CONFIGURATION = \"Universal\" ]; then\n\trm release/libios_file_browser.a\n\texit\nfi\ncp build/Universal-universal/libios_file_browser.a release/\ncp source/*.png release/\ncp source/*.xib release/\ncp source/PXRFileBrowser.h release/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493B32E613621985004D852F /* NSObject+Additions.m in Sources */,
+				493B32E813621985004D852F /* PXRFileBrowser.m in Sources */,
+				493B32EA13621985004D852F /* PXRFileBrowserItem.m in Sources */,
+				493B32EC13621985004D852F /* PXRFileBrowserTableCell.m in Sources */,
+				493B32EE13621985004D852F /* PXRFileBrowserTableData.m in Sources */,
+				493B32F013621985004D852F /* UISlideButton.m in Sources */,
+				493B32F213621985004D852F /* UITableCellLoader.m in Sources */,
+				493B32F413621985004D852F /* UITableDataSourceController.m in Sources */,
+				493B32F613621985004D852F /* UIView+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ios_file_browser.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ios_file_browser;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ios_file_browser.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ios_file_browser;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		493B330F136219E5004D852F /* Universal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Universal;
+		};
+		493B3310136219E5004D852F /* Universal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ios_file_browser.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ios_file_browser;
+			};
+			name = Universal;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ios_file_browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+				493B3310136219E5004D852F /* Universal */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Universal;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ios_file_browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+				493B330F136219E5004D852F /* Universal */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Universal;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
