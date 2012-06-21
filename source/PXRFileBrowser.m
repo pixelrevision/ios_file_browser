@@ -279,7 +279,11 @@
 
 - (IBAction)loadFileFromDisk:(NSString*)path{
 	NSData *file = [NSData dataWithContentsOfFile:path];
-	[delegate fileBrowserFinishedPickingFile:file withName:path];
+	if(delegate){
+		if([delegate respondsToSelector:@selector(fileBrowserFinishedPickingFile:withName:)]){
+			[delegate fileBrowserFinishedPickingFile:file withName:path];
+		}
+	}
 	[self dismissModalViewControllerAnimated:YES];
 }
 
@@ -322,7 +326,11 @@
 	[fileToSave writeToFile:fileLoc atomically:YES];
 	[fileToSave release];
 	[fileTypeToUse release];
-	[delegate fileBrowserFinishedSavingFileNamed:fileLoc];
+	if(delegate){
+		if([delegate respondsToSelector:@selector(fileBrowserFinishedSavingFileNamed:)]){
+			[delegate fileBrowserFinishedSavingFileNamed:fileLoc];
+		}
+	}
 	[self refreshView];
 	[self dismissModalViewControllerAnimated:YES];
 }
@@ -348,17 +356,29 @@
 	[fileToSave writeToFile:fileLoc atomically:YES];
 	[fileToSave release];
 	[fileTypeToUse release];
-	[delegate fileBrowserFinishedSavingFileNamed:fileLoc];
+	if(delegate){
+		if([delegate respondsToSelector:@selector(fileBrowserFinishedSavingFileNamed:)]){
+			[delegate fileBrowserFinishedSavingFileNamed:fileLoc];
+		}
+	}
 	[self refreshView];
 	[self dismissModalViewControllerAnimated:YES];
 }
 
 - (IBAction)cancel{
 	if(browserMode == kPXRFileBrowserModeSave){
-		[delegate fileBrowserCanceledSavingFile:fileToSave]; 
+		if(delegate){
+			if([delegate respondsToSelector:@selector(fileBrowserCanceledSavingFile:)]){
+				[delegate fileBrowserCanceledSavingFile:fileToSave]; 
+			}
+		}
 		[fileToSave release];
 	}else if(browserMode == kPXRFileBrowserModeLoad){
-		[delegate fileBrowserCanceledPickingFile];
+		if(delegate){
+			if([delegate respondsToSelector:@selector(fileBrowserCanceledPickingFile:)]){
+				[delegate fileBrowserCanceledPickingFile];
+			}
+		}
 	}
 	[self dismissModalViewControllerAnimated:YES];
 }
